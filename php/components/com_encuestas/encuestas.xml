@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5.0" method="upgrade">
+
+        <name>Encuestas en la Web</name>
+        <!-- The following elements are optional and free of formatting constraints -->
+        <creationDate>May 2013</creationDate>
+        <author>Felipe Alfaro Solana</author>
+        <authorEmail>felipe.alfaro@gmail.com</authorEmail>
+        <authorUrl>http://blog.felipe-alfaro.com/</authorUrl>
+        <copyright>Copyright 2013 Felipe Alfaro Solana</copyright>
+        <license>GNU GPL v2</license>
+        <!--  The version string is recorded in the components table -->
+        <version>0.0.1</version>
+        <!-- The description is optional and defaults to the name -->
+        <description>Aplicacion Joomla de Encuestas en la Web</description>
+ 
+        <update> <!-- Runs on update; New in 2.5 -->
+                <schemas>
+                        <schemapath type="mysql">sql/updates/mysql</schemapath>
+                </schemas>
+        </update>
+ 
+        <administration>
+                <!-- Administration Menu Section -->
+                <menu>Encuestas en la Web</menu>
+        </administration>
+
+ </extension>
